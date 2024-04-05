@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import data from "./data.js";
 import Person from "./Person.jsx";
 
@@ -46,10 +46,10 @@ const App = () => {
             className="prev-btn"
             onClick={() => subtractIndex()}
           >
-            <FaAngleLeft />
+            <FaChevronLeft />
           </button>
           <button type="button" className="next-btn" onClick={() => addIndex()}>
-            <FaAngleRight />
+            <FaChevronRight />
           </button>
         </div>
         <div>
